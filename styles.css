@@ -1,0 +1,94 @@
+
+body {
+    background-image: url('background-super.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif ;
+    margin: 10 auto;
+    padding: 10 auto;    
+}
+  
+  form {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+  }
+
+  hr {
+    color:rgba(0, 0, 0, 0.1);
+    margin: 15px 15px;
+    width: auto;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 8px;
+    width: 100%;
+  }
+
+  select {
+    margin: 10px;
+  }
+  
+  select option:first-child {
+    color: gray;
+    display: none;
+  }
+  
+  select:required:invalid {
+    color: gray;
+  }
+  
+  select option[value=""] {
+    color: gray;
+  }
+  
+  input[type="radio"] {
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: auto;
+  }
+  
+  input[type="radio"], label{
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: auto;
+  }
+  
+  .no-register {
+    background-color: #0a4481;
+    color: #fff;
+    margin-top: 33px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 60px;
+    cursor: pointer;
+  }
+  
+
